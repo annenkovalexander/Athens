@@ -1,10 +1,10 @@
 {
   "type": "list_card",
   "paddings": {
-    "left": "8x",
     "top": "8x",
-    "right": "8x",
-    "bottom": "8x"
+    "bottom": "8x",
+    "left": "8x",
+    "right": "8x"
   },
   "cells": [
     {
@@ -19,34 +19,16 @@
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "Ваши нормативные коэффициенты премирования",
+            "text": "Ваш нормативный коэффициент премирования",
             "typeface": "headline3",
             "text_color": "default",
             "max_lines": 0
-          }
-        }
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "2x",
-        "top": "2x",
-        "right": "2x",
-        "bottom": "2x"
-      },
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "texts": {
-          "title": {
+          },
+          "subtitle": {
             "text": "Кнорм / Кгод",
             "typeface": "body2",
-            "text_color": "default",
-            "max_lines": 2,
+            "text_color": "secondary",
+            "max_lines": 0,
             "margins": {
               "top": "2x"
             }
@@ -66,12 +48,12 @@
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "1.00",
+            "text": "{{main_form.fields_filling_knorm.knorm_value}}",
             "typeface": "headline1",
-            "text_color": "dafault",
-            "max_lines": "0",
+            "text_color": "default",
+            "max_lines": 0,
             "margins": {
-              "top": "10px"
+              "top": "10x"
             }
           }
         }
