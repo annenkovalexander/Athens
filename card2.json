@@ -55,15 +55,6 @@
             "margins": {
               "top": "10x"
             }
-          },
-          "subtitle": {
-            "text": "1.40",
-            "typeface": "body2",
-            "text_color": "secondary",
-            "max_lines": 0,
-            "margins": {
-              "top": "2x"
-            }
           }
         }
       }
