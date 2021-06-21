@@ -49,7 +49,7 @@
           },
           "subtitle": {
             "text": "0.60",
-            "typeface": "headline1",
+            "typeface": "headline2",
             "text_color": "default",
             "max_lines": 0,
             "margins": {
