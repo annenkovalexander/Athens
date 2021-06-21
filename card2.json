@@ -48,12 +48,21 @@
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "{{main_form.fields_filling_knorm.knorm_value}}",
+            "text": "Кнорм / Кгод",
             "typeface": "headline1",
             "text_color": "default",
             "max_lines": 0,
             "margins": {
               "top": "10x"
+            }
+          },
+          "subtitle": {
+            "text": "1.40",
+            "typeface": "body2",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
             }
           }
         }
