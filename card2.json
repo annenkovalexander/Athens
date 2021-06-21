@@ -35,13 +35,17 @@
         "right": "2x",
         "bottom": "2x"
       },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
       "left": {
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "Кнорм / Кгод",
+            "text": "Кгод",
             "typeface": "body1",
-            "text_color": "default",
+            "text_color": "secondary",
             "max_lines": 0,
             "margins": {
               "top": "10x"
@@ -49,8 +53,40 @@
           },
           "subtitle": {
             "text": "1.40",
-            "typeface": "body2",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Ккв",
+            "typeface": "body1",
             "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "10x"
+            }
+          },
+          "subtitle": {
+            "text": "2.50",
+            "typeface": "body1",
+            "text_color": "default",
             "max_lines": 0,
             "margins": {
               "top": "2x"
