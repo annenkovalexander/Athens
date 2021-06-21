@@ -1,128 +1,127 @@
 {
-          "type": "list_card",
-          "paddings": {
-            "left": "8x",
-            "top": "8x",
-            "right": "8x",
-            "bottom": "8x"
-          },
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Ваши нормативные коэффициенты премирования",
-                    "typeface": "headline3",
-                    "text_color": "default",
-                    "max_lines": 0
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "subtitle": {
-                    "text": "Кнорм / Кгод",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 2,
-                    "margins": {
-                      "top": "2x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "1.00",
-                    "typeface": "headline1",
-                    "text_color": "dafault",
-                    "max_lines": "0",
-                    "margins": {
-                      "top": "10px"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "subtitle": {
-                    "text": "Кнорм / Кгод",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 2,
-                    "margins": {
-                      "top": "2x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "1.40",
-                    "typeface": "headline1",
-                    "text_color": "dafault",
-                    "max_lines": "0",
-                    "margins": {
-                      "top": "10px"
-                    }
-                  }
-                }
-              }
+  "type": "list_card",
+  "paddings": {
+    "left": "8x",
+    "top": "8x",
+    "right": "8x",
+    "bottom": "8x"
+  },
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Ваши нормативные коэффициенты премирования",
+            "typeface": "headline3",
+            "text_color": "default",
+            "max_lines": 0
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "subtitle": {
+            "text": "Кнорм / Кгод",
+            "typeface": "body2",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
             }
-          ]
-          
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "1.00",
+            "typeface": "headline1",
+            "text_color": "dafault",
+            "max_lines": "0",
+            "margins": {
+              "top": "10px"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "subtitle": {
+            "text": "Кнорм / Кгод",
+            "typeface": "body2",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "1.40",
+            "typeface": "headline1",
+            "text_color": "dafault",
+            "max_lines": "0",
+            "margins": {
+              "top": "10px"
+            }
+          }
+        }
+      }
+    }
+  ]         
 }
