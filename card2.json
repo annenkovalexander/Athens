@@ -42,7 +42,7 @@
       "left": {
         "type": "simple_left_view",
         "texts": {
-          "subtitle": {
+          "title": {
             "text": "Кнорм / Кгод",
             "typeface": "body2",
             "text_color": "default",
