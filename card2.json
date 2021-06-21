@@ -35,6 +35,29 @@
           }
         }
       }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "{{main_form.fields_filling_knorm.knorm_value}}",
+            "typeface": "headline1",
+            "text_color": "default",
+            "max_lines": 0,
+            "margins": {
+              "top": "10x"
+            }
+          }
+        }
+      }
     }
   ]
 }
