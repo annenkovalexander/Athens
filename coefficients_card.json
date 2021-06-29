@@ -52,7 +52,7 @@
             }
           },
           "subtitle": {
-            "text": "Это ваш должностной оклад",
+            "text": "Это Ваш должностной оклад",
             "typeface": "body1",
             "text_color": "secondary",
             "max_lines": 0,
