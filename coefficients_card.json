@@ -35,6 +35,10 @@
         "right": "2x",
         "bottom": "2x"
       },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
       "left": {
         "type": "simple_left_view",
         "texts": {
@@ -49,7 +53,43 @@
           },
           "subtitle": {
             "text": "Это ваш должностной оклад",
-            "typeface": "headline2",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Кнорм",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          },
+          "subtitle": {
+            "text": "коэффициент, который определяет нормативный уровень вознаграждения сотрудника за месяц, квартал или год",
+            "typeface": "body1",
             "text_color": "secondary",
             "max_lines": 0,
             "margins": {
