@@ -98,6 +98,186 @@
           }
         }
       }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Кприб",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          },
+          "subtitle": {
+            "text": "коэффициент зависимости размеров премии от выполнения плана Банка по прибыли",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Ксб",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          },
+          "subtitle": {
+            "text": "коэффициент зависимости бонуса от объёма чистой прибыли Банка в отчетный период",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Крез",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          },
+          "subtitle": {
+            "text": "коэффициент оценки Вашей результативности",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Кцен",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          },
+          "subtitle": {
+            "text": "коэффициент ценности работы сотрудника для Банка в отчетный период",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "2x",
+        "top": "2x",
+        "right": "2x",
+        "bottom": "2x"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d1"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Котр",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 2,
+            "margins": {
+              "top": "2x"
+            }
+          },
+          "subtitle": {
+            "text": "фактически отработанное время в отчетном периоде",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "2x"
+            }
+          }
+        }
+      }
     }
   ]
 }
