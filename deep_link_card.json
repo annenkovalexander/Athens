@@ -1,51 +1,49 @@
 {
-                          "card": {
-                            "type": "list_card",
-                            "cells": [
-                              {
-                                "type": "left_right_cell_view",
-                                "paddings": {
-                                  "left": "10x",
-                                  "top": "8x",
-                                  "right": "10x",
-                                  "bottom": "8x"
-                                },
-                                "left": {
-                                  "type": "simple_left_view",
-                                  "icon": {
-                                    "address": {
-                                      "type": "local",
-                                      "identificator": "document_checkmark"
-                                    },
-                                    "tint_color": "solid_disabled",
-                                    "size": {
-                                      "width": "medium",
-                                      "height": "medium"
-                                    }
-                                  },
-                                  "icon_vertical_gravity": "top",
-                                  "texts": {
-                                    "title": {
-                                      "text": "Расчетный лист",
-                                      "typeface": "headline3",
-                                      "text_color": "default",
-                                      "max_lines": 0,
-                                      "margins": {
-                                        "left": "8x"
-                                      }
-                                    }
-                                  }
-                                },
-                                "right": {
-                                  "type": "disclosure_right_view"
-                                },
-                                "actions": [
-                                  {
-                                    "type": "deep_link",
-                                    "deep_link": "https://hr.sberbank.ru/platform/compensation-benefits/#/psl/bonus"
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        }
+  "type": "list_card",
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "10x",
+        "top": "8x",
+        "right": "10x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "document_checkmark"
+          },
+          "tint_color": "solid_disabled",
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          }
+        },
+        "icon_vertical_gravity": "top",
+        "texts": {
+          "title": {
+            "text": "Расчетный лист",
+            "typeface": "headline3",
+            "text_color": "default",
+            "max_lines": 0,
+            "margins": {
+              "left": "8x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view"
+      },
+      "actions": [
+        {
+          "type": "deep_link",
+          "deep_link": "https://hr.sberbank.ru/platform/compensation-benefits/#/psl/bonus"
+        }
+      ]
+    }
+  ]
+}
