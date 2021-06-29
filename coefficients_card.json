@@ -251,10 +251,6 @@
         "right": "2x",
         "bottom": "2x"
       },
-      "divider": {
-        "style": "default",
-        "size": "d1"
-      },
       "left": {
         "type": "simple_left_view",
         "texts": {
